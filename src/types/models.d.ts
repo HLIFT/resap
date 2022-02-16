@@ -53,10 +53,12 @@ export type Fiche = {
   slug: string,
   illustration: Asset,
   description: string,
+  resume: string,
   contenu: string,
   date: string,
   tags: string[],
   structures?: Structure[],
   pourEnSavoirPlus?: Link[],
   outils?: Link[],
+  patients?: Link[],
 }
